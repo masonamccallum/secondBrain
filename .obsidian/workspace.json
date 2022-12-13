@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d5c539778e252889",
+        "id": "f642fc466ce53a32",
         "type": "tabs",
         "children": [
           {
-            "id": "7619f18dc41a6047",
+            "id": "ed691b917fd0d662",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +20,42 @@
             }
           },
           {
-            "id": "c2776b7f96b342c1",
+            "id": "f291d36b0f033464",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Uniqueness.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "efd86a5eed3d03e7",
+            "id": "1a10e9c5c1d2f033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Maximum Principles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "558805be3954ac05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diffusion Equation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d978ea3a3c69112f",
@@ -161,11 +173,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "efd86a5eed3d03e7",
+  "active": "ed691b917fd0d662",
   "lastOpenFiles": [
-    "templates/Definition.md",
-    "templates/Problem set.md",
-    "templates/Theorem.md",
-    "README.md"
+    "Uniqueness.md",
+    "Maximum Principles.md",
+    "Diffusion Equation.md",
+    "README.md",
+    "Integration by Parts Formulas.md",
+    "Well Posed Problem.md",
+    "Boundary conditions.md",
+    "Superposition principle.md",
+    "Untitled 1.md",
+    "well posed.md"
   ]
 }
