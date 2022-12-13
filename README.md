@@ -10,6 +10,7 @@ Goals
 # Why and how to take Obsidian notes?
 For this usecase it is advantagous to develop connections between course material. Obsidian Stores notes in a Graph organization structure. Links between nodes in a graph help develop a network of information. A complete set of notes on our courses will involve a large amount of linking. This reduces redundancy and helps make connetions between different fields of mathematics. Many Theorems/Results of Measure Theory are useful in Dynamical system 2 or Stocastic Differential equations. Maximum principles, Lax Milgram, and the like are all topics covered in Analysis, PDE, and FEM.   
 
+
 # project templates
 This list defines the atomic structure of this project. Developers are responsible for appropriately linking notes via effective tags and embedding.
 
@@ -21,3 +22,7 @@ Along with a theorem statement. It should include a colapsable proof and list of
 These aught to include collapsable solutions but are not required. 
 #### conseptual note
 This note serves as the connective structure of the project. Suppose you create a conseptual note on Grahm Schmit. This could reference definitions, textbooks, or lectures from a number of courses. First create the definition/theorem files and them embed them in a conseptual note with supporting notes. 
+
+# Q&A
+##### What if I have a different definition/theorem with the same name but different context/assumtions?
+Suppose you are defining Grahm shmidt process. But there already exists a Grahm Schmidt for function spaces. This will require an edit of the previous note. Adding the definition of Grahm schmidt on finite dimensional vector spaces will be an extention of the original note. This is similar to the structure of a wikipidia page. Subsections cover relevant differences.  
