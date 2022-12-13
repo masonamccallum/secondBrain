@@ -1,3 +1,9 @@
+# TODO
+[] Maximum principles
+[] fundamental solutions
+[] fourier analysis 
+
+
 This repository is a notes set for SMU mathematics PhD qualification exams.
 Goals
 - Reduce redundancy in notes
