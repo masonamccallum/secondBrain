@@ -13,49 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "research/Unbounded Operators.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f291d36b0f033464",
+            "id": "35a2ce239e68ade7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uniqueness.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "1a10e9c5c1d2f033",
+            "id": "0293eeac34d0c805",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maximum Principles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "558805be3954ac05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diffusion Equation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Separable Hilbert spaces",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d978ea3a3c69112f",
@@ -122,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -173,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ed691b917fd0d662",
+  "active": "0293eeac34d0c805",
   "lastOpenFiles": [
-    "Uniqueness.md",
-    "Maximum Principles.md",
-    "Diffusion Equation.md",
+    "2022-12-14.md",
+    "Quals prep/Bounded Operators.md",
+    "research/Position and Momentum Operator.md",
+    "research/2022-12-14.md",
+    "Quals prep/Hahn-Banach Theorem.md",
+    "research/Unbounded Operators.md",
     "README.md",
-    "Integration by Parts Formulas.md",
-    "Well Posed Problem.md",
-    "Boundary conditions.md",
-    "Superposition principle.md",
-    "Untitled 1.md",
-    "well posed.md"
+    "Quals prep/Reisz-Representation Theorem.md",
+    "research/bra ket notation.md",
+    "research/SSH Hamiltonian.md"
   ]
 }

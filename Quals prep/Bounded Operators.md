@@ -1,0 +1,3 @@
+- $A:H\rightarrow H$ is bounded if $\forall \varphi \in H$   $||A\varphi|| \le C||\varphi||$.
+- For any bounded operator there exists an adjoint operator. ie $<\phi,A\varphi> =<A^*\phi,\varphi>$  
+- A bounded operator is self-adjoint if $A^*=A$.  $<\phi,A\varphi>=<A\phi,\varphi>$ 
