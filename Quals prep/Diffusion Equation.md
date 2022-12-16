@@ -13,3 +13,21 @@ $$\begin{cases}
 &u(x,0) = g(x)&x\in\bar{\Omega}\\
 &+ \text{boundary conditions} &x\in\partial\Omega\times(0,T]\\
 \end{cases}$$
+## Global Cauchy Problem (n=1)
+$$
+\begin{cases}
+	&u_t-D u_{xx} = 0 &x\in\mathbb{R}\times(0,\infty)\\
+	&u(x,0)=g(x) &x\in\mathbb{R}\\
+\end{cases}
+$$
+This problem models the evolution of the temperature along a very long bar given the initial temperature distribution $g(x)$. 
+
+recall what we know from the fundamental solution of the following
+![[Fundamental Solutions#^263b77]]
+Where the fundamental solution is considered a unit source solution. Accordingly
+$$\Gamma_D(x-y,t)g(y)dy$$ gives the concentration at x at time t, due to the diffusion of the mass $g(y)dy$. Therefore via the [[Superposition principle]] we can compute the solution as the sum of all contributions. Therefore
+$$
+u(x,t)=\int_\mathbb{R}\Gamma_D(x-y,t)dy=\frac{1}{\sqrt{4\pi Dt}}\int_{\mathbb{R}}g(y)e^{-\frac{(x-y)^2}{4Dt}}dy
+$$
+This is a solution to the global Cauchy problem under a boundedness condition on $g(x)$. We require that $|g(x)|\le ce^{ax^2}\;\;\forall x\in\mathbb{R}$ 
+

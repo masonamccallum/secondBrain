@@ -13,30 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research/Unbounded Operators.md",
+                "file": "daily notes/2022-12-16.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "35a2ce239e68ade7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "0293eeac34d0c805",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d978ea3a3c69112f",
@@ -102,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "daily notes/2022-12-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "daily notes/2022-12-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "daily notes/2022-12-16.md"
+              }
             }
           }
         ]
@@ -149,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0293eeac34d0c805",
+  "active": "ed691b917fd0d662",
   "lastOpenFiles": [
-    "2022-12-14.md",
-    "Quals prep/Bounded Operators.md",
-    "research/Position and Momentum Operator.md",
-    "research/2022-12-14.md",
-    "Quals prep/Hahn-Banach Theorem.md",
+    "Quals prep/Well Posed Problem.md",
+    "Quals prep/Diffusion Equation.md",
+    "Quals prep/Superposition principle.md",
+    "research/SSH Hamiltonian.md",
     "research/Unbounded Operators.md",
-    "README.md",
-    "Quals prep/Reisz-Representation Theorem.md",
+    "daily notes/2022-12-16.md",
+    "Quals prep/Duhamel's Method.md",
+    "Quals prep/Fundamental Solutions.md",
     "research/bra ket notation.md",
-    "research/SSH Hamiltonian.md"
+    "daily notes/2022-12-15.md"
   ]
 }
