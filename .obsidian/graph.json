@@ -1,10 +1,10 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
@@ -13,18 +13,39 @@
         "a": 1,
         "rgb": 14147666
       }
+    },
+    {
+      "query": "path:\"daily notes\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:research",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Quals prep\"",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.67052815755208,
+  "lineSizeMultiplier": 4.99960123697917,
+  "collapse-forces": true,
   "centerStrength": 0.394726090993501,
   "repelStrength": 7.95097493036212,
   "linkStrength": 0.79866295264624,
   "linkDistance": 30,
-  "scale": 1.5101709553921994,
+  "scale": 0.7132754626224396,
   "close": true
 }
