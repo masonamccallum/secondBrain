@@ -8,18 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "517d198431c9b1f6",
+            "id": "191366bb4ff75bbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research/mason/Unbounded Operators.md",
+                "file": "Quals prep/Multi Index Notation.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "a88b6b2117c50dc4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Fourier transform",
+                "query": "graph",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "research/mason/Unbounded Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "research/mason/Unbounded Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "research/mason/Unbounded Operators.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,17 +141,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "517d198431c9b1f6",
+  "active": "a88b6b2117c50dc4",
   "lastOpenFiles": [
-    "README.md",
     "daily notes/mason/2022-12-19.md",
-    "research/mason/Housdorff space.md",
+    "research/mason/Hiesenburg unsertanty Principle.md",
+    "README.md",
+    "Quals prep/Multi Index Notation.md",
     "Quals prep/Closed Graph Theorem.md",
-    "Quals prep/Graph.md",
-    "Quals prep/Duhamel's Method.md",
-    "Quals prep/Diffusion Equation.md",
-    "Quals prep/Bounded Operators.md",
-    "Quals prep/Boundary conditions.md",
-    "Quals prep/Uniqueness.md"
+    "Quals prep/Fourier Transforms.md",
+    "research/mason/Position and Momentum Operator.md",
+    "research/mason/Unbounded Operators.md",
+    "research/mason/SSH Hamiltonian.md",
+    "research/mason/Hausdorff space.md"
   ]
 }

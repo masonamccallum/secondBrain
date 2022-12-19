@@ -8,12 +8,12 @@ and
 $$\mathcal{F}^{-1}f(\xi)=\frac{1}{(2\pi)^n}\int_{\mathbb{R}^n}f(x)e^{-ix\xi}\;dx$$
 
 where $\mathcal{F}^{-1}(\mathcal{F}f)=f$  and  $\mathcal{F}(\mathcal{F}^{-1}f)=f$ 
-Additional notes:
-	==Warning== 
-	There is no general agreement on whether to put the minus sign with $\mathcal{F}f$ or $\mathcal{F}^{-1}f$, or on what to do with $\frac{1}{2\pi}$. Dr. Hagstrom splits the factor of $1/2\pi$ into $\frac{1}{\sqrt{2\pi}}$. 
-	==Dr.Hagstrom convention==
-	$$\mathcal{F}f(\xi)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}f(x)e^{ix\xi}\;dx$$
-	$$\mathcal{F}^{-1}f(\xi)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}f(x)e^{-ix\xi}\;dx$$
+
+> [!warning] 
+> There is no general agreement on whether to put the minus sign with $\mathcal{F}f$ or $\mathcal{F}^{-1}f$, or on what to do with $\frac{1}{2\pi}$. Dr. Hagstrom splits the factor of $1/2\pi$ into $\frac{1}{\sqrt{2\pi}}$. He also puts the minus sign on the inverse fourier transform.
+>> [!TIP]+ Dr.Hagstrom Fourier Series convention
+>> $$\hat{f}(\xi,t)=\mathcal{F}f(\xi,t)=\frac{1}{(2\pi)^n}\int_{\mathbb{R}^n}f(x,t)e^{-i\xi\cdot x}\;dx$$
+>> $$f(x,t)=\mathcal{F}^{-1}f(x,t)=\int_{\mathbb{R}^n}\mathcal{F}f(\xi,t)e^{i\xi\cdot x}\;d\xi$$
 #### Plancherel formula
 $$\int_{-\infty}^{\infty}|f(x)|^2\;dx=\frac{1}{2\pi}\int_{-\infty}^{\infty}|\mathcal{F}(\xi)|^2\;d\xi$$   
 For this formulation we require that $f(x)$ tend to zero sufficiently rapidly. 
