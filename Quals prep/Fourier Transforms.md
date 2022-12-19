@@ -31,6 +31,51 @@ A typical function in $\mathcal{S}(\mathbb{R}^n)$ is $e^{-|x|^2}$; this function
 5. $\mathcal{S}(\mathbb{R}^n)$ is closed under translations and multiplication by complex exponentials $e^{ix\cdot \xi}$ 
 6. $\mathcal{S}(\mathbb{R}^n)$ functions are integrable: $\int_{\mathbb{R}^n}|f(x)|\;dx<\infty$ for $f\in\mathcal{S}(\mathbb{R}^n)$. 
 7. $f\in\mathcal{S}(\mathbb{R}^n)\Rightarrow\mathcal{F}f\in\mathcal{S}(\mathbb{R}^n)$ 
+
+Below we will derive fundamental properties of Fourier transform
 ###### Translation
+$$
+\begin{aligned}
+\tau_y f(x) &= f(x+y)\\
+&=\int_{\mathbb{R}^n}f(x+y)e^{ix\cdot\xi}\;dx\\
+&\;\;\;\;\;x\mapsto x-y\\
+&=\int_{\mathbb{R}^n}f(x)e^{i(x-y)\cdot\xi}\;dx\\
+\end{aligned}
+$$
+$e^{i(x-y)\cdot\xi}=e^{-iy\cdot\xi}e^{ix\cdot \xi}$
+$$
+\therefore \mathcal{F}(\tau_y f)(\xi) = e^{-iy\cdot \xi}\mathcal{F}f(x)
+$$
+Therefore translation by the vector y in real space results in multiplication by the exponential $e^{-iy\cdot\xi}$ in Fourier space. 
 ##### Differentiation
+Recall the limit definition of derivatives. It a limit applied to translation. Therefore we would expect differentiation to have a similar form to translation.
+$$
+\begin{aligned}
+\mathcal{F}\left(\frac{\partial}{\partial x_k}f\right)(\xi)&=\int e^{ix\cdot\xi}\frac{\partial f}{\partial x_k}(x)\;dx\\
+&=-\int f(x)\frac{\partial}{\partial x_k}(e^{ix\cdot\xi})\;dx\\
+&=-i\xi_k \int f(x)e^{ix\cdot \xi}\;dx\\
+&=-i\xi_k \mathcal{F}f(\xi)\\
+\end{aligned}
+$$
 ##### Convolution
+Suppose $f,g\in\mathcal{S}$ define convolution $f*g$ by  
+$$
+f*g\;(x) = \int f(x-y)g(y)\;dy
+$$ 
+By a change of variables $y \rightarrow x-y$  is equal to $\int f(y)g(x-y)\;dy$  so $f*g=g*f$ 
+under a Fourier transform a convolution becomes a multiplication in frequency space.
+$$\mathcal{F}(f*g)(\xi)= \mathcal{F}f(\xi)\mathcal{F}g(\xi)$$
+### Fourier transformation table
+|Function ($x$)| Fourier Tranform $(\xi)$|
+|---------|-----------|
+|$f(x)$|$\mathcal{F}f(\xi)$|
+|$f(x+y)$|$e^{-iy\cdot\xi}\mathcal{F}f(\xi)$|
+|$e^{ix\cdot y}f(x)$|$\mathcal{F}f(\xi+y)$|
+|$\frac{\partial}{\partial x_k}f(x)$|$-i\xi_k \mathcal{F}f(\xi)$|
+|$p(\frac{\partial}{\partial x})f(x)$|$p(-i\xi_k)\mathcal{F}f(\xi)$|
+|$x_kf(x)$|$-i\frac{\partial}{\partial\xi_k}\mathcal{F}f(\xi)$|
+|$p(x)f(x)$|$p(-i\frac{\partial}{\partial\xi})\mathcal{F}f(\xi)$|
+|$f(x)*g(x)*$|$\mathcal{F}f(\xi)\mathcal{F}g(\xi)$|
+|$f(x)g(x)*$|$\frac{1}{(2\pi)^n}\mathcal{F}f(\xi)*\mathcal{F}g(\xi)$|
+
+Moving forward in the course material we combine this Fourier Tranform theory with the theory of [[Generalized Functions]]. This theory is the [[Fourier Transform of Tempered Distributions]]

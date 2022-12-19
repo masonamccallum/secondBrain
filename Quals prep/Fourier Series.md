@@ -1,3 +1,4 @@
+#pde #strichartz #hagstrom 
 A quick recap on properties of Fourier series which will be extended to Fourier transforms. ^102bad
 
 #### Fourier Series Basic Fact 1

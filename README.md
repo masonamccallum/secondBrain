@@ -1,5 +1,5 @@
-# TODO
-[] fourier analysis 
+This is an awesome link for cool formatting tips with obsidian.
+https://help.obsidian.md/How+to/Use+callouts
 
 This repository is a notes set for SMU mathematics PhD qualification exams.
 Goals

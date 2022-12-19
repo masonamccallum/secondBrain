@@ -11,8 +11,12 @@
             "id": "517d198431c9b1f6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "research/mason/Unbounded Operators.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "research/mason/Unbounded Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "research/mason/Unbounded Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "research/mason/Unbounded Operators.md"
+              }
             }
           }
         ]
@@ -128,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ddce440beeb7b810",
+  "active": "517d198431c9b1f6",
   "lastOpenFiles": [
-    "Quals prep/Fourier Transforms.md",
-    "daily notes/mason/2022-12-17.md",
-    "2022-12-17.md",
-    "Quals prep/Fourier Series.md",
-    "daily notes/mason/2022-12-16.md",
-    "Quals prep/Generalized Functions.md",
-    "Quals prep/Superposition principle.md",
+    "README.md",
+    "daily notes/mason/2022-12-19.md",
+    "research/mason/Housdorff space.md",
+    "Quals prep/Closed Graph Theorem.md",
+    "Quals prep/Graph.md",
+    "Quals prep/Duhamel's Method.md",
     "Quals prep/Diffusion Equation.md",
     "Quals prep/Bounded Operators.md",
-    "research/mason/bra ket notation.md"
+    "Quals prep/Boundary conditions.md",
+    "Quals prep/Uniqueness.md"
   ]
 }
