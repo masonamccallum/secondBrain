@@ -65,7 +65,7 @@ $$
 By a change of variables $y \rightarrow x-y$  is equal to $\int f(y)g(x-y)\;dy$  so $f*g=g*f$ 
 under a Fourier transform a convolution becomes a multiplication in frequency space.
 $$\mathcal{F}(f*g)(\xi)= \mathcal{F}f(\xi)\mathcal{F}g(\xi)$$
-### Fourier transformation table
+#### Fourier transformation table
 |Function ($x$)| Fourier Tranform $(\xi)$|
 |---------|-----------|
 |$f(x)$|$\mathcal{F}f(\xi)$|
@@ -75,7 +75,10 @@ $$\mathcal{F}(f*g)(\xi)= \mathcal{F}f(\xi)\mathcal{F}g(\xi)$$
 |$p(\frac{\partial}{\partial x})f(x)$|$p(-i\xi_k)\mathcal{F}f(\xi)$|
 |$x_kf(x)$|$-i\frac{\partial}{\partial\xi_k}\mathcal{F}f(\xi)$|
 |$p(x)f(x)$|$p(-i\frac{\partial}{\partial\xi})\mathcal{F}f(\xi)$|
-|$f(x)*g(x)*$|$\mathcal{F}f(\xi)\mathcal{F}g(\xi)$|
-|$f(x)g(x)*$|$\frac{1}{(2\pi)^n}\mathcal{F}f(\xi)*\mathcal{F}g(\xi)$|
+|$f(x)*g(x)$|$\mathcal{F}f(\xi)\mathcal{F}g(\xi)$|
+|$f(x)g(x)$|$\frac{1}{(2\pi)^n}\mathcal{F}f(\xi)*\mathcal{F}g(\xi)$|
 
+^caf7b0
+
+##### Whats next?
 Moving forward in the course material we combine this Fourier Tranform theory with the theory of [[Generalized Functions]]. This theory is the [[Fourier Transform of Tempered Distributions]]
