@@ -63,3 +63,9 @@ Here we explore the question. If $(\partial/\partial x_k)f$ exists in a classica
 
 #TODO  - 2.5 Distributional solutions of differential equations
 
+> [!note] Process for defining operators on $\mathcal{S}'(\mathbb{R}^n)$ or $\mathcal{D}'(\mathbb{R}^n)$
+> Note that the general process for exploring operators on generalized functions is to explore the adjoint operator. 
+Suppose we wish to export the effect of the operator $T$ on the space of generalized functions. We will calculate the adjoint operator which then acts on the space of test functions. ie
+> $$
+\braket{Tf,\varphi} = \braket{f,S\varphi}
+$$
