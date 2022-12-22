@@ -6,46 +6,17 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:templates",
-      "color": {
-        "a": 1,
-        "rgb": 14147666
-      }
-    },
-    {
-      "query": "path:\"daily notes\"",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:research",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:\"Quals prep\"",
-      "color": {
-        "a": 1,
-        "rgb": 65280
-      }
-    }
-  ],
-  "collapse-display": false,
+  "colorGroups": [],
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.4,
-  "nodeSizeMultiplier": 1.67052815755208,
-  "lineSizeMultiplier": 4.99960123697917,
-  "collapse-forces": true,
-  "centerStrength": 0.394726090993501,
-  "repelStrength": 7.95097493036212,
-  "linkStrength": 0.79866295264624,
-  "linkDistance": 30,
-  "scale": 1.4279142773093878,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.1817516439081055,
   "close": true
 }
