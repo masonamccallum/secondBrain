@@ -1,0 +1,1 @@
+Suppose $V$ and $W$ are Banach spaces and T is an injective (or one-to-one) bounded linear map from V to W. Then $T^{-1}$ is a bounded linear map from W onto V.

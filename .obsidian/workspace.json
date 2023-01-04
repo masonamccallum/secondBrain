@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily notes/mason/2022-12-21.md",
+                "file": "research/mason/paper notes/Thicke-edgeStatesNoTrunc.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af95db7f9bc6c2f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "research/mason/Spectral theory.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily notes/mason/2022-12-21.md",
+                "file": "research/mason/Spectral theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily notes/mason/2022-12-21.md",
+                "file": "research/mason/Spectral theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily notes/mason/2022-12-21.md"
+                "file": "research/mason/Spectral theory.md"
               }
             }
           }
@@ -146,17 +161,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1aaab23cd1c699f6",
+  "active": "af95db7f9bc6c2f1",
   "lastOpenFiles": [
-    "Quals prep/definitions/Bounded Operators.md",
-    "Quals prep/definitions/Fourier Transforms.md",
-    "Quals prep/definitions/Fourier Series.md",
-    "Quals prep/definitions/Graph.md",
-    "Quals prep/principles/Well Posed Problem.md",
-    "Quals prep/principles/Superposition principle.md",
-    "Quals prep/definitions/Multi Index Notation.md",
-    "Quals prep/Methods for solving PDEs/Fundamental Solutions.md",
-    "Quals prep/prototypical equations/Maxwell's Equations.md",
-    "daily notes/mason/2022-12-21.md"
+    "daily notes/mason/2023-01-04.md",
+    "daily notes/mason/2023-01-03.md",
+    "research/mason/paper notes/Thicke-edgeStatesNoTrunc.md",
+    "Block Bands.md",
+    "research/mason/Spectral theory.md",
+    "daily notes/mason/2023-01-02.md",
+    "research/mason/Projection valued measure.md",
+    "Quals prep/Theorems/Bounded Inverse Theorem.md",
+    "research/mason/Unbounded Operators.md",
+    "Quals prep/definitions/compact operator.md"
   ]
 }

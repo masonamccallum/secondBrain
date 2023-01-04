@@ -42,3 +42,14 @@ $$
 $$
 
 ^140a3a
+
+### Discussion
+#strichartz 
+consider the classical problem: $\Delta u=f$
+Now suppose we could solve the following distributional problem. $\Delta P=\delta$.
+then
+$$
+\Delta(P*f)=\Delta P * f=\delta*f=f
+$$
+this works if P is a tempered distribution and $f\in\mathcal{S}$ 
+
