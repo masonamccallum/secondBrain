@@ -36,8 +36,8 @@ For fixed y, the fundamental solution $\Gamma_D(x-y,t)$ is the unique solution o
 #### Global Cauchy problem 
 $$
 \begin{cases}
-	&u_t-D\Delta u = 0 &x\in\mathbb{R}^n, t>0\\
-	&u(x,0)=\delta (x-y) &x\in\mathbb{R}^n\\
+	&\Gamma_t-D\Delta \Gamma = 0 &x\in\mathbb{R}^n, t>0\\
+	&\Gamma(x,0)=\delta (x-y) &x\in\mathbb{R}^n\\
 \end{cases}
 $$
 

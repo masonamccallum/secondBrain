@@ -1,1 +1,11 @@
-{}
+{
+  "workspace:close": [],
+  "workspace:close-window": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ]
+}
